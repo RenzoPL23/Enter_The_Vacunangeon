@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637728893784273084
+      ticks: 637734595963408160
     m_Hash: 202722892
   m_LockFileStatus:
     m_FilePath: F:/Programacion/Unity/Enter_The_Vacunangeon/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637728893784273084
+      ticks: 637734595963417867
     m_Hash: 2070563383
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

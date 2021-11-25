@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Integrantes.unity
+- path: Assets/Scenes/DevScenes/EnemyTestScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
