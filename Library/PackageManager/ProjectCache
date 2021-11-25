@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637730493524628375
-    m_Hash: 2707012829
+      ticks: 637733624289568026
+    m_Hash: 885608628
   m_LockFileStatus:
     m_FilePath: D:/Universidad/DevGames1/TF/Enter_The_Vacunangeon/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637730493525078390
-    m_Hash: 759358561
+      ticks: 637733624289678202
+    m_Hash: 1188802423
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
