@@ -15,11 +15,11 @@ D:/OneDrive/UPC/2021-2/DJ1/TF
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61806
+55057
 Successfully changed project path to: D:/OneDrive/UPC/2021-2/DJ1/TF
 D:/OneDrive/UPC/2021-2/DJ1/TF
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 52.11 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 57.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path D:/UnityMSI/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'D:/UnityMSI/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UnityMSI/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/UnityMSI/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56704
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UnityMSI/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005254 seconds.
+Registered in 0.005454 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.595 seconds
+- Completed reload, in  1.466 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1595ms)
-		BeginReloadAssembly (92ms)
+	ReloadAssembly (1467ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (518ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (470ms)
+			LoadAssemblies (82ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (198ms)
+			SetupTypeCache (169ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (183ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (178ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (77ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (79ms)
 				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,51 +73,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009908 seconds.
+Registered in 0.009406 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.495 seconds
+- Completed reload, in  1.577 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1496ms)
-		BeginReloadAssembly (201ms)
+	ReloadAssembly (1578ms)
+		BeginReloadAssembly (339ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (21ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1200ms)
-			LoadAssemblies (151ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1128ms)
+			LoadAssemblies (179ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (347ms)
+			SetupTypeCache (325ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (521ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (481ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (322ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (17ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.1 MB.
 System memory in use after: 93.2 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2531.
-Total: 3.830100 ms (FindLiveObjects: 0.236500 ms CreateObjectMapping: 0.100400 ms MarkObjects: 3.414800 ms  DeleteObjects: 0.076600 ms)
+Total: 4.223500 ms (FindLiveObjects: 0.238900 ms CreateObjectMapping: 0.121800 ms MarkObjects: 3.769000 ms  DeleteObjects: 0.091700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,689 +131,89 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Assets/Media/aaron-ward-idle-jump-run-walk.jpg
-  artifactKey: Guid(00d072ebc598a22469f2cadcdec3093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Media/aaron-ward-idle-jump-run-walk.jpg using Guid(00d072ebc598a22469f2cadcdec3093f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704900a9f599e7c0809b787f80518bbd') in 0.717936 seconds 
-  Import took 0.721484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031074 seconds.
-  path: Assets/Assets/Media/ETGMenu.jpg
-  artifactKey: Guid(a7f3e1bee9098f5459aa420ec4d79878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Media/ETGMenu.jpg using Guid(a7f3e1bee9098f5459aa420ec4d79878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f397100d6f4e27dc6fa53e530a669e8') in 0.027220 seconds 
-  Import took 0.031828 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/Assets/Media
-  artifactKey: Guid(a9f5f52824f11de44a7c186c696def05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Media using Guid(a9f5f52824f11de44a7c186c696def05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbc13b8ae81c05bf15147139606bfc5') in 0.008144 seconds 
-  Import took 0.012417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Assets/Media/generatedtext.png
-  artifactKey: Guid(2caf0d89bb4810843991662143459e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Media/generatedtext.png using Guid(2caf0d89bb4810843991662143459e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05cbb6c186157c1f0fae325765bb533') in 0.021452 seconds 
-  Import took 0.025377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Assets/Media/aaron-ward-dashes.jpg
-  artifactKey: Guid(bde16683c2f064844942fafd45cf3496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Media/aaron-ward-dashes.jpg using Guid(bde16683c2f064844942fafd45cf3496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b2a5af22d7d58cf85397f537a40167') in 0.027445 seconds 
-  Import took 0.031706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000318 seconds.
-  path: Assets/Assets/Media/Screenshot_1428.png
-  artifactKey: Guid(d96ae53e09b64d04e9ce70ef2be7420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Media/Screenshot_1428.png using Guid(d96ae53e09b64d04e9ce70ef2be7420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd63666d5f842af4e7099f2625e8621') in 0.038092 seconds 
-  Import took 0.041909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.607820 seconds.
-  path: Assets/Assets/Pack/Background/Decoration
-  artifactKey: Guid(812f707ee534a4747850f8bd314e0624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration using Guid(812f707ee534a4747850f8bd314e0624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b581a6eed3bc726312ef385182a8ae72') in 0.009810 seconds 
-  Import took 0.015292 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038003 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoraation - Water 01.png
-  artifactKey: Guid(60a1a96dd78ef6542b6e5ce61a3f8e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoraation - Water 01.png using Guid(60a1a96dd78ef6542b6e5ce61a3f8e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065302062e835714d3b1c8a6f874a60a') in 0.020863 seconds 
-  Import took 0.025156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Grass 01.png
-  artifactKey: Guid(b4a136f99ad2eb440a5fd05f7772c34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Grass 01.png using Guid(b4a136f99ad2eb440a5fd05f7772c34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74af16e78b7d145965778081e0441d04') in 0.019223 seconds 
-  Import took 0.023252 seconds .
+  path: Assets/Scenes/DevScenes/PlatformerTestScene.unity
+  artifactKey: Guid(9690f2e0433960b4db1d8b98ddc18ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DevScenes/PlatformerTestScene.unity using Guid(9690f2e0433960b4db1d8b98ddc18ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00b71f430b9f2bc56631aeaf5d553a92') in 0.061170 seconds 
+  Import took 0.070179 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000371 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Stump 01.png
-  artifactKey: Guid(7aa2713d00f39d84fa53d96ca2cc8b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Stump 01.png using Guid(7aa2713d00f39d84fa53d96ca2cc8b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a18de9fbe638b37dfd2619e535554a') in 0.019721 seconds 
-  Import took 0.024830 seconds .
+  path: Assets/Scenes/DevScenes
+  artifactKey: Guid(99e5f65ad5991d44aacf8f65d7544084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DevScenes using Guid(99e5f65ad5991d44aacf8f65d7544084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5358153539c1208659c899de818891d9') in 0.010638 seconds 
+  Import took 0.020785 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Wooden Box.png
-  artifactKey: Guid(432f8f6eac6034546838a927a1be28a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Wooden Box.png using Guid(432f8f6eac6034546838a927a1be28a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '201687448cbb96f4059c46458e353098') in 0.021317 seconds 
-  Import took 0.026758 seconds .
+  Time since last request: 1.487887 seconds.
+  path: Assets/Scenes/Integrantes.unity
+  artifactKey: Guid(a2d468353b136f54e8f5ed2be08770a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Integrantes.unity using Guid(a2d468353b136f54e8f5ed2be08770a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8e75dc48e27960956a797ec69bb973') in 0.011219 seconds 
+  Import took 0.018885 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Medium Tree.png
-  artifactKey: Guid(6f6c100d28aca7e4cad9971f82659753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Medium Tree.png using Guid(6f6c100d28aca7e4cad9971f82659753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879e899627362034b1e783f98d02cb4c') in 0.026406 seconds 
-  Import took 0.030682 seconds .
+  Time since last request: 15.323870 seconds.
+  path: Assets/Scenes/PlatformerTestScene.unity
+  artifactKey: Guid(a2d468353b136f54e8f5ed2be08770a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PlatformerTestScene.unity using Guid(a2d468353b136f54e8f5ed2be08770a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049034cda5c201d7a682903ff28a4a9f') in 0.003798 seconds 
+  Import took 0.013122 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Rock 06.png
-  artifactKey: Guid(26706ae89efbd1a4ba25746f8e03a1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Rock 06.png using Guid(26706ae89efbd1a4ba25746f8e03a1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a07bff28d4bea366774e73c77beb58') in 0.025103 seconds 
-  Import took 0.033528 seconds .
+  Time since last request: 12.767840 seconds.
+  path: Assets/Scenes/DevScenes/Integrantes.unity
+  artifactKey: Guid(9690f2e0433960b4db1d8b98ddc18ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DevScenes/Integrantes.unity using Guid(9690f2e0433960b4db1d8b98ddc18ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8290f81281e36b2f0a5b399def3454f') in 0.003142 seconds 
+  Import took 0.012290 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000361 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoraation - Water 02.png
-  artifactKey: Guid(bd07a341911a8f042ac3eb36aeea03ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoraation - Water 02.png using Guid(bd07a341911a8f042ac3eb36aeea03ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f91d1ba185f8ea1fb70ae9d6e38d969') in 0.034578 seconds 
-  Import took 0.039574 seconds .
+  Time since last request: 31.761042 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88820672b0271a264872b1c13e58c307') in 0.007852 seconds 
+  Import took 0.016975 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Rock 02.png
-  artifactKey: Guid(0d036bac25fce2949a2e5a2317bb2866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Rock 02.png using Guid(0d036bac25fce2949a2e5a2317bb2866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc1e83460f33ddf3b1430cd4c4b70ab') in 0.019954 seconds 
-  Import took 0.024665 seconds .
+  Time since last request: 15.264009 seconds.
+  path: Assets/Scenes/GameOver 1.unity
+  artifactKey: Guid(4d50c2c8ac4777240b6e22a334970458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameOver 1.unity using Guid(4d50c2c8ac4777240b6e22a334970458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470cabe5412bf04dfbd8314962c035be') in 0.007606 seconds 
+  Import took 0.017220 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Grass 02.png
-  artifactKey: Guid(18d04b7a5155d5248b3f227d8d0c3cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Grass 02.png using Guid(18d04b7a5155d5248b3f227d8d0c3cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2baf8646ea54ecb4846159d2cd016538') in 0.019928 seconds 
-  Import took 0.025390 seconds .
+  Time since last request: 3.099334 seconds.
+  path: Assets/Scenes/Integrantes.unity
+  artifactKey: Guid(4d50c2c8ac4777240b6e22a334970458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Integrantes.unity using Guid(4d50c2c8ac4777240b6e22a334970458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9019b4fc65247f080d8051060607986d') in 0.003007 seconds 
+  Import took 0.013445 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Quest Sign.png
-  artifactKey: Guid(af87ae69ccc9b2644bf34c1e8d5a470c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Quest Sign.png using Guid(af87ae69ccc9b2644bf34c1e8d5a470c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb6bcab6df9c6b9de71df0db6a9190b') in 0.019925 seconds 
-  Import took 0.025503 seconds .
+  Time since last request: 107.360954 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95df672b4aaba54310d34c83eef51bb8') in 0.046325 seconds 
+  Import took 0.056151 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000387 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Rock 05.png
-  artifactKey: Guid(89b8abfbfb57f414e8a2f18fcd67f80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Rock 05.png using Guid(89b8abfbfb57f414e8a2f18fcd67f80b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13496fdf58ef0c556e71cbde0a363fee') in 0.023014 seconds 
-  Import took 0.027561 seconds .
+  Time since last request: 126.951946 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5964681c5beeeea877f170a46c63dd4') in 0.004645 seconds 
+  Import took 0.014374 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Bridge.png
-  artifactKey: Guid(dd6d8da51e73a1b47bfd9dbe00121c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Bridge.png using Guid(dd6d8da51e73a1b47bfd9dbe00121c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6182089316f5ba246ec7dc1fee6a945b') in 0.020778 seconds 
-  Import took 0.025733 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000678 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Danger Sign.png
-  artifactKey: Guid(6589f724afd542a4e89ffc0be31eb353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Danger Sign.png using Guid(6589f724afd542a4e89ffc0be31eb353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33b94aa9ad02adc4202d5aa5ec41ac0') in 0.021590 seconds 
-  Import took 0.026673 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Large Tree.png
-  artifactKey: Guid(9716825f78c16ff4caee3cb6873c6b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Large Tree.png using Guid(9716825f78c16ff4caee3cb6873c6b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad841b7f85d73fb9ff9190eb96300e08') in 0.021486 seconds 
-  Import took 0.028059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Ladder.png
-  artifactKey: Guid(1e65afbba44f4a8449979147b4142fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Ladder.png using Guid(1e65afbba44f4a8449979147b4142fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c478305c3c7b35bc509ac98090a41716') in 0.021372 seconds 
-  Import took 0.026108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Rock 03.png
-  artifactKey: Guid(0e93de046d10059428e8ec71bca26c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Rock 03.png using Guid(0e93de046d10059428e8ec71bca26c8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '790d28bae748f9ec6c53b128a626d54a') in 0.022228 seconds 
-  Import took 0.026990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Small Tree.png
-  artifactKey: Guid(1ab952160ee5db648b6bbcfb79208fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Small Tree.png using Guid(1ab952160ee5db648b6bbcfb79208fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13729fcf2366d8245d3c61b148d41b4e') in 0.023563 seconds 
-  Import took 0.029473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Rock 01.png
-  artifactKey: Guid(59c9c2d86e113444aaa188ab78bc2c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Rock 01.png using Guid(59c9c2d86e113444aaa188ab78bc2c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af2d4b1ade9d1c87fb4c944fdccaa42') in 0.021896 seconds 
-  Import took 0.027395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Left Sign.png
-  artifactKey: Guid(1562509ddf8f96b48a7d1e36a52e26b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Left Sign.png using Guid(1562509ddf8f96b48a7d1e36a52e26b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195a6e48da49cf9f9324d03e82a495b3') in 0.021715 seconds 
-  Import took 0.028015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Right Sign.png
-  artifactKey: Guid(9b0644751b250a54997d6272fb42b64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Right Sign.png using Guid(9b0644751b250a54997d6272fb42b64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffd9acb74bbe86ef10193cebe86ff90') in 0.018107 seconds 
-  Import took 0.022120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Stump 02.png
-  artifactKey: Guid(fcd42a18263e92e4ca13eb279fc364bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Stump 02.png using Guid(fcd42a18263e92e4ca13eb279fc364bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c17f38e206152882cf4a4a8f6af6d7') in 0.019298 seconds 
-  Import took 0.023622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Rock 04.png
-  artifactKey: Guid(d3fe5f8300a92de4ab0b3c1959cbf505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Rock 04.png using Guid(d3fe5f8300a92de4ab0b3c1959cbf505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afe9cacf2c1f4c336873fc08da1a1e5') in 0.020851 seconds 
-  Import took 0.026141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Spikes.png
-  artifactKey: Guid(6207413f2308fb8498352baf9f7827a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Decoration/Cartoon Town_Decoration - Spikes.png using Guid(6207413f2308fb8498352baf9f7827a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311cec525b159ed26c362ae6342d700a') in 0.019955 seconds 
-  Import took 0.025475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.844057 seconds.
-  path: Assets/Assets/Pack/Background/Parallax Background
-  artifactKey: Guid(94ae1eef2c8317947b81ac97d38fd394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Parallax Background using Guid(94ae1eef2c8317947b81ac97d38fd394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645ec86ad844a73d717ea4c51a55692d') in 0.008434 seconds 
-  Import took 0.012108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000736 seconds.
-  path: Assets/Assets/Pack/Background/Parallax Background
-  artifactKey: Guid(94ae1eef2c8317947b81ac97d38fd394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Parallax Background using Guid(94ae1eef2c8317947b81ac97d38fd394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645ec86ad844a73d717ea4c51a55692d') in 0.003011 seconds 
-  Import took 0.008475 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.836235 seconds.
-  path: Assets/Assets/Pack/Background/Parallax Background/Cartoon Town_Bakcground - Layer 00.png
-  artifactKey: Guid(ab69c0e7bc6527a479ac084b6d72a78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Parallax Background/Cartoon Town_Bakcground - Layer 00.png using Guid(ab69c0e7bc6527a479ac084b6d72a78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cd2e16c29c1e080e2177c71b9f2934') in 0.033055 seconds 
-  Import took 0.036221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Assets/Pack/Background/Parallax Background/Cartoon Town_Bakcground - Layer 03.png
-  artifactKey: Guid(914fa7c390da81d489cef8e46ebcf748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Parallax Background/Cartoon Town_Bakcground - Layer 03.png using Guid(914fa7c390da81d489cef8e46ebcf748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d06c0cefd5de01bfda2ab8bd136ec0') in 0.040930 seconds 
-  Import took 0.046712 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Assets/Pack/Background/Parallax Background/Cartoon Town_Bakcground - Layer 01.png
-  artifactKey: Guid(6499cadd6cc904241a892b4cb7c0c2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Parallax Background/Cartoon Town_Bakcground - Layer 01.png using Guid(6499cadd6cc904241a892b4cb7c0c2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b75d818c8f726c22895f4372952408') in 0.022225 seconds 
-  Import took 0.027040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.016587 seconds.
-  path: Assets/Assets/Pack/Background/Platformer
-  artifactKey: Guid(712711ef6936fa948888758b089ef650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer using Guid(712711ef6936fa948888758b089ef650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ce5e407d55726d9dd1bcb1b4204424') in 0.009437 seconds 
-  Import took 0.013716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.320921 seconds.
-  path: Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 01.png
-  artifactKey: Guid(776f184d302d32445a623933929587d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 01.png using Guid(776f184d302d32445a623933929587d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68a2c2b1feafe7bda8024315b6f21bc') in 0.018074 seconds 
-  Import took 0.021646 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 04.png
-  artifactKey: Guid(68ed83aed41b4934ab2bbe332e1dd4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 04.png using Guid(68ed83aed41b4934ab2bbe332e1dd4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31979bdfc5bd4a6fc0f659f5bd7b9678') in 0.022454 seconds 
-  Import took 0.026309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 02.png
-  artifactKey: Guid(1ba6e8756abee3a468e52ada7217260d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 02.png using Guid(1ba6e8756abee3a468e52ada7217260d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7374c51c960d6be8b3e0b9a70d1ed9b2') in 0.019023 seconds 
-  Import took 0.023306 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000370 seconds.
-  path: Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 10.png
-  artifactKey: Guid(8b750daf5f6baa64e81ad251fd14c433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 10.png using Guid(8b750daf5f6baa64e81ad251fd14c433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adb5010fd6bf2fe3f638d4ccb948aec') in 0.022173 seconds 
-  Import took 0.026535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 07.png
-  artifactKey: Guid(3d8238d6fadcf404a93663e12d6fc310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 07.png using Guid(3d8238d6fadcf404a93663e12d6fc310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1b8c07775b0b8d951f53d110a2f5a9') in 0.026435 seconds 
-  Import took 0.030605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 12.png
-  artifactKey: Guid(36f4bc4be7e009c44ba30731073ada0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 12.png using Guid(36f4bc4be7e009c44ba30731073ada0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5651b5258a0dfd286cf4834a841d79') in 0.021191 seconds 
-  Import took 0.025759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 05.png
-  artifactKey: Guid(7ced27867e984dd489065d5d50753f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 05.png using Guid(7ced27867e984dd489065d5d50753f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a03419aec333d9ddde8b7a0e69fc386') in 0.023347 seconds 
-  Import took 0.028837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 06.png
-  artifactKey: Guid(9583d0fda91a5054a9ea1575869f237a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 06.png using Guid(9583d0fda91a5054a9ea1575869f237a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df984040818ab8623b7fd2cfb73ade3') in 0.020232 seconds 
-  Import took 0.025578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 09.png
-  artifactKey: Guid(712495550c5400143bb4df4ce3fa97c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 09.png using Guid(712495550c5400143bb4df4ce3fa97c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3f402aeafb83839241237980719184') in 0.019393 seconds 
-  Import took 0.025084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 03.png
-  artifactKey: Guid(d300bd199f5acfc4dbdb61486e6f87ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 03.png using Guid(d300bd199f5acfc4dbdb61486e6f87ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa98808d3ed3da964573205b126d76d') in 0.021823 seconds 
-  Import took 0.026124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 08.png
-  artifactKey: Guid(a1eab2b60da6e334e9699353caae84b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 08.png using Guid(a1eab2b60da6e334e9699353caae84b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b12d669ef5f3ab535239ada8391871b') in 0.020185 seconds 
-  Import took 0.023950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 13.png
-  artifactKey: Guid(7d11c66f83557a348b819567987aaffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 13.png using Guid(7d11c66f83557a348b819567987aaffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63e0c6831c21259e0dadba89b5284d9') in 0.019168 seconds 
-  Import took 0.024153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 11.png
-  artifactKey: Guid(c1df547cf15ea654fafc15ecc6bf5440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Platformer/Cartoon Town_Platformer - 11.png using Guid(c1df547cf15ea654fafc15ecc6bf5440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b559d651d7770ccbea1657d9f54cb6') in 0.025525 seconds 
-  Import took 0.029517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.939579 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object
-  artifactKey: Guid(cbba6b968e2108f4089b005e2cb41cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object using Guid(cbba6b968e2108f4089b005e2cb41cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952cd4228c97e2b7855d9f3c336a5644') in 0.007832 seconds 
-  Import took 0.012643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.335538 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object/Cartoon Town_Collectable - Golden Key.png
-  artifactKey: Guid(9eae08670800eb64eb0982ab8deaa9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object/Cartoon Town_Collectable - Golden Key.png using Guid(9eae08670800eb64eb0982ab8deaa9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c33ac8a4919f7101b9e337323d31adc') in 0.017447 seconds 
-  Import took 0.020838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object/Cartoon Town_Collectable - Treasure Box - Open.png
-  artifactKey: Guid(c3a66f0e276d17a448eb5be3f1d26f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object/Cartoon Town_Collectable - Treasure Box - Open.png using Guid(c3a66f0e276d17a448eb5be3f1d26f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e5628a048f92e21bf34368f36332fa') in 0.016358 seconds 
-  Import took 0.019587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000578 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object/Cartoon Town_Collectable - Silver Key.png
-  artifactKey: Guid(75f8d784c869ffc439c9764ca6b6ac8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object/Cartoon Town_Collectable - Silver Key.png using Guid(75f8d784c869ffc439c9764ca6b6ac8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2646863528e3992038a1f3e3a2331f79') in 0.018236 seconds 
-  Import took 0.022816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object/Cartoon Town_Collectable - Life.png
-  artifactKey: Guid(be90625c5a495d14b929332cbbd8f0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object/Cartoon Town_Collectable - Life.png using Guid(be90625c5a495d14b929332cbbd8f0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0187d219ad110e86161e799f6fe6df') in 0.024920 seconds 
-  Import took 0.028862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object/Cartoon Town_Collectable - Treasure Box - Closed.png
-  artifactKey: Guid(ffd2b235aa726b3478500e2157f91308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object/Cartoon Town_Collectable - Treasure Box - Closed.png using Guid(ffd2b235aa726b3478500e2157f91308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293b471a294a8961454f45e3c1992f50') in 0.021359 seconds 
-  Import took 0.027580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.377980 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object/Coin
-  artifactKey: Guid(d6e1ec667f955ec49b0a86ef57e61978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object/Coin using Guid(d6e1ec667f955ec49b0a86ef57e61978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a1bcdff89078ccff0d4a66bdcca89d') in 0.008420 seconds 
-  Import took 0.012628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001335 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object/Coin
-  artifactKey: Guid(d6e1ec667f955ec49b0a86ef57e61978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object/Coin using Guid(d6e1ec667f955ec49b0a86ef57e61978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a1bcdff89078ccff0d4a66bdcca89d') in 0.002998 seconds 
-  Import took 0.007752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.792269 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object/Coin/Cartoon Town_Collectable - Coin__000.png
-  artifactKey: Guid(269b49f7f10ecc4418e1de45df6e535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object/Coin/Cartoon Town_Collectable - Coin__000.png using Guid(269b49f7f10ecc4418e1de45df6e535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf227cc8d21b93e53ed4c42c03285d4d') in 0.024254 seconds 
-  Import took 0.030182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object/Coin/Cartoon Town_Collectable - Coin__002.png
-  artifactKey: Guid(6648777c66cef4c4c9ed65b0249efdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object/Coin/Cartoon Town_Collectable - Coin__002.png using Guid(6648777c66cef4c4c9ed65b0249efdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55c822233cd9e555376181c80f06312') in 0.073857 seconds 
-  Import took 0.081365 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object/Coin/Cartoon Town_Collectable - Coin__001.png
-  artifactKey: Guid(2359f26848ea3a84690cfcbf39da1273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object/Coin/Cartoon Town_Collectable - Coin__001.png using Guid(2359f26848ea3a84690cfcbf39da1273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7d2954208dcca8d8d8a6931865e413') in 0.028726 seconds 
-  Import took 0.037050 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object/Coin/Cartoon Town_Collectable - Coin__003.png
-  artifactKey: Guid(8de5b2bb855bfb94cb4bb24f0205b159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object/Coin/Cartoon Town_Collectable - Coin__003.png using Guid(8de5b2bb855bfb94cb4bb24f0205b159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c3ed3f4f21fe704f03262a87350517') in 0.030506 seconds 
-  Import took 0.036333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object/Coin/Cartoon Town_Collectable - Coin__004.png
-  artifactKey: Guid(856c87606de1b624198d9ed1c89eec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object/Coin/Cartoon Town_Collectable - Coin__004.png using Guid(856c87606de1b624198d9ed1c89eec68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd267754802a5705f7d266974dc998d52') in 0.023051 seconds 
-  Import took 0.030407 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Assets/Pack/Background/Collectable Object/Coin/Cartoon Town_Collectable - Coin__005.png
-  artifactKey: Guid(03e9cbf5adc759f439d54abe42b0f343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/Background/Collectable Object/Coin/Cartoon Town_Collectable - Coin__005.png using Guid(03e9cbf5adc759f439d54abe42b0f343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7294e5ccc3348f9fe7e68bbe9ef4dc93') in 0.025774 seconds 
-  Import took 0.032965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 294.500568 seconds.
-  path: Assets/Assets/Pack/TileSet.png
-  artifactKey: Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/TileSet.png using Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8fb2677c72fe4421a2192e634988d1') in 0.016745 seconds 
-  Import took 0.022183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 350.243813 seconds.
-  path: Assets/Assets/Tiles
-  artifactKey: Guid(ad626080f75c79041a471afc0fe927f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Tiles using Guid(ad626080f75c79041a471afc0fe927f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63a420ba618dc4a412e9c111f8093a5') in 0.010386 seconds 
-  Import took 0.015694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6060.595141 seconds.
-  path: Assets/Assets/Pack/TileSet.png
-  artifactKey: Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/TileSet.png using Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e701f3a0b99ee440a10e16a26546e5eb') in 3.757660 seconds 
-  Import took 4.064074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1868.621085 seconds.
-  path: Assets/Assets/Pack/TileSet.png
-  artifactKey: Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/TileSet.png using Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '188df3db2162a48f0bb0034d761849a5') in 0.268738 seconds 
-  Import took 0.274963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 611.973820 seconds.
-  path: Assets/Assets/Pack/TileSet.png
-  artifactKey: Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/TileSet.png using Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c0b0cd07e1adb0eb27c9d40ff02e54') in 0.257995 seconds 
-  Import took 0.264694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.397972 seconds.
-  path: Assets/Assets/Pack/TileSet.png
-  artifactKey: Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/TileSet.png using Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f828cbcbd3897d07ff8cdefe8d1a8698') in 0.347806 seconds 
-  Import took 0.354675 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.507614 seconds.
-  path: Assets/Assets/Tiles/Base/TileSet_87.asset
-  artifactKey: Guid(bde570b8b94f4e940890388fa21f7527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Tiles/Base/TileSet_87.asset using Guid(bde570b8b94f4e940890388fa21f7527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f38a1655528d960ea2cbec8e89ca855') in 3.787228 seconds 
-  Import took 3.791307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/Assets/Tiles/P1/TileSet_93.asset
-  artifactKey: Guid(8539eb627d2c58a46a5d33f8e1a0f0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Tiles/P1/TileSet_93.asset using Guid(8539eb627d2c58a46a5d33f8e1a0f0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e27c28cf6c4c9aae22b76e693e3f8be') in 0.023738 seconds 
-  Import took 0.124033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Assets/Tiles/Base/TileSet_92.asset
-  artifactKey: Guid(7a6fc5ebe1f41f3429e457456572e374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Tiles/Base/TileSet_92.asset using Guid(7a6fc5ebe1f41f3429e457456572e374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1cb2d11488f81f8f362815858bb4a6') in 0.017718 seconds 
-  Import took 0.021433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Assets/Tiles/Base/TileSet_94.asset
-  artifactKey: Guid(de1469642bd3b21418d7ce843a9d3746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Tiles/Base/TileSet_94.asset using Guid(de1469642bd3b21418d7ce843a9d3746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1713197a2c1742b3360f9ff8239904') in 0.036879 seconds 
-  Import took 0.047679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Assets/Tiles/Base/TileSet_95.asset
-  artifactKey: Guid(23f7260b37b62c541869db4e31ea1779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Tiles/Base/TileSet_95.asset using Guid(23f7260b37b62c541869db4e31ea1779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb31a2147d256ef7a961f2467bfd9f4') in 0.020554 seconds 
-  Import took 0.066132 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Assets/Tiles/P1/TileSet_92.asset
-  artifactKey: Guid(c946d3d98c4dcc9499b290433bb7af5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Tiles/P1/TileSet_92.asset using Guid(c946d3d98c4dcc9499b290433bb7af5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fd9be89dbfd106aa577aacbdd292aa') in 0.009456 seconds 
-  Import took 0.014308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/Assets/Tiles/Base/TileSet_88.asset
-  artifactKey: Guid(713c18364cc3edf47ac570d34c9a1541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Tiles/Base/TileSet_88.asset using Guid(713c18364cc3edf47ac570d34c9a1541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a25d0b91f435b8cf71d911a6392b52') in 0.019557 seconds 
-  Import took 0.025421 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/Assets/Tiles/P1/TileSet_94.asset
-  artifactKey: Guid(b709abf3602671f4086210a843a36048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Tiles/P1/TileSet_94.asset using Guid(b709abf3602671f4086210a843a36048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2287d477336b93215811eb2ae73dc1aa') in 0.012715 seconds 
-  Import took 0.016590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Assets/Tiles/Base/TileSet_93.asset
-  artifactKey: Guid(ec87b8f363a04d542b676ca25bc1ae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Tiles/Base/TileSet_93.asset using Guid(ec87b8f363a04d542b676ca25bc1ae66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135d730ba91458bd996effe7de4ad7bc') in 0.014287 seconds 
-  Import took 0.018690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Assets/Tiles/P1/TileSet_95.asset
-  artifactKey: Guid(9bfc646afdd8fd94da1232d444adb3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Tiles/P1/TileSet_95.asset using Guid(9bfc646afdd8fd94da1232d444adb3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be51627ac055826be038963f96f294ce') in 0.015503 seconds 
-  Import took 0.022831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/Assets/Tiles/P1/TileSet_88.asset
-  artifactKey: Guid(99979bcb0b2e0a248a98aae62904e374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Tiles/P1/TileSet_88.asset using Guid(99979bcb0b2e0a248a98aae62904e374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6324f9f8137d3e5c855b27070c8868') in 0.015230 seconds 
-  Import took 0.041001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 783.061065 seconds.
-  path: Assets/Assets/Pack/TileSet.png
-  artifactKey: Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/TileSet.png using Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4277e6c0e52be9a737fe5ca51d12da0b') in 0.275609 seconds 
-  Import took 0.280182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.643550 seconds.
-  path: Assets/Assets/Pack/TileSet.png
-  artifactKey: Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/TileSet.png using Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5622e3e01ae355f900a690cb226e92') in 0.237845 seconds 
-  Import took 0.242706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 119.110281 seconds.
-  path: Assets/Assets/Pack/TileSet.png
-  artifactKey: Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/TileSet.png using Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd4be9a90e0d868afafe329568a94d9') in 0.222576 seconds 
-  Import took 0.229234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.568905 seconds.
-  path: Assets/Assets/Pack/TileSet.png
-  artifactKey: Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/TileSet.png using Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b07f996ce4161ef56a92c87f4a04148') in 0.175402 seconds 
-  Import took 0.179997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 292.930082 seconds.
-  path: Assets/Assets/Pack/TileSet.png
-  artifactKey: Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/TileSet.png using Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4042d6fb5b98867500e27fa66cd95545') in 0.171120 seconds 
-  Import took 0.175743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 138.992031 seconds.
-  path: Assets/Assets/Pack/TileSet.png
-  artifactKey: Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Pack/TileSet.png using Guid(ced3663fd667b0a419922c3a9f2b1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7fd8ed00d1c0c88ea6bb318a18bc70') in 0.216232 seconds 
-  Import took 0.220803 seconds .
+  Time since last request: 324.506979 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa21e7d972d3fbd5129feba55967a0ec') in 0.004443 seconds 
+  Import took 0.015765 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
