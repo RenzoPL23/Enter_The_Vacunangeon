@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -85,4 +86,15 @@ public class PlayerController : MonoBehaviour
             bodyBullet.AddForce(new Vector2(-10, 0), ForceMode2D.Impulse);
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.tag.Equals("Enemy"))
+        {
+            Destroy(this.gameObject);
+            SceneManager.LoadScene("GameOver");
+        }
+
+    }
+
 }
