@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/DevScenes/CharacterTestScene.unity
+- path: Assets/Scenes/DevScenes/PlatformerTestScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
